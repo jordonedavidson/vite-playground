@@ -1,6 +1,6 @@
-# Node JS Playground
+# Vite Playground
 
-**A convinient place to start a new NodeJS project.**
+**A convinient place to start a new Vite based JS/TS project.**
 
 ## How to start
 
@@ -19,7 +19,7 @@ After the container is finished you will have a `node_modules` directory and a n
 
 ## Subsequent runs.
 
-In `docker-compose.yml` comment out `command: npm install` and uncomment `command: "npm run dev"`.
+In `docker-compose.yml` comment out `command: npm install` and uncomment `command: "npm run dev -- --host"`.
 
 Run `docker-compose up -d` from the command line.
 
@@ -27,7 +27,7 @@ Now you will have a running docker container with the name you gave it in `.env`
 
 ## Development
 
-Saved changes to your code are picked up immediately by parcel and displayed on the website in realtime.
+Saved changes to your code are picked up immediately by vite and displayed on the website in realtime.
 
 ### Adding packages.
 

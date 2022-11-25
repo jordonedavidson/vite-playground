@@ -9,9 +9,9 @@ services:
     volumes:
       - ./:/home/node/app
     ports:
-      - "$APP_PORT:1234"
+      - "$APP_PORT:5173"
     #command: npm install
-    command: "npm run dev"
+    command: "npm run dev -- --host"
     #command: "npm run build"
     #command: "npm run preview"
 

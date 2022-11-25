@@ -1,0 +1,26 @@
+{
+  "name": "base-node-playground",
+  "version": "1.0.0",
+  "description": "Starter nodejs playground. Clone this and make the updates shown in the README",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel serve",
+    "build": "parcel build"
+  },
+  "keywords": [
+    "nodejs",
+    "docker",
+    "parcel"
+  ],
+  "author": "Jordon Davidson",
+  "license": {
+    "type": "UPL",
+    "url": "https://opensource.org/licenses/UPL"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@parcel/transformer-webmanifest": "^2.7.0",
+    "parcel": "^2.6.2"
+  }
+}

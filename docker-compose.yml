@@ -10,8 +10,8 @@ services:
       - ./:/home/node/app
     ports:
       - "$APP_PORT:1234"
-    command: npm install
-    #command: "npm run dev"
+    #command: npm install
+    command: "npm run dev"
     #command: "npm run build"
 
  
